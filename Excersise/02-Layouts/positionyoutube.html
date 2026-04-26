@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+     .big-container {
+      display: flex;
+      flex-direction: row;
+      padding: 10px 10px;
+      gap: 20px;
+     }
+
+
+
+
+
+      .container {
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        text-decoration: none;
+        
+      }
+
+      .thumbnail-container {
+       width: 100%;
+        position: relative;
+      
+      }
+
+      .thumbnail {
+        display: block;
+        width: 100%;
+      }
+
+      .time {
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 2px 4px;
+        bottom: 8px;
+        right: 8px;
+      }
+
+     .mini-container {
+      position: relative;
+      display: inline-block;
+     display: flex;
+     padding-top: 10px;
+
+     }
+
+     .mini-container:hover .tooltip {
+  opacity: 1;
+     }
+
+     .tooltip {
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  top: 54px;
+  left: 0;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+     }
+
+     .tooltip-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+
+.tool {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-author {
+  font-family: arial;
+  font-weight: bold
+}
+
+.tool-result {
+  color: gray;
+  font-family: Arial;
+}
+
+
+
+
+     .channel-pic {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+     }
+
+     .text {
+      padding:10px ;
+      color: black;
+      font-family: arial;
+      font-weight: 600;
+     }
+
+     .text-that {
+      text-decoration: none;
+       
+     }
+
+     .information {
+      padding: 5px 52px;
+      font-family: arial;
+      color: rgb(95, 94, 94);
+     }
+     
+    </style>
+  </head>
+  <body>
+    <div class="big-container">
+
+<div class="container">
+
+      <div class="thumbnail-container">
+
+        <a href="https://youtu.be/n2RNcPRtAiY?si=blGtMTLFomOciq3G"><img class="thumbnail" src="../05-Assets/thumbnail-1.webp"></a>
+
+       
+
+        <div class="time">14:20</div>
+      </div>
+
+      <div class="mini-container">
+        <a href="https://www.youtube.com/@mkbhd"><img class="channel-pic" src="../05-Assets/channel-1.jpeg"></a>
+
+         <div class="tooltip">
+          <img class="tooltip-pic" src="../05-Assets/channel-1.jpeg">
+          <div class="tool">
+            <div class="tool-author" > Marques Brownlea</div>
+        <div class="tool-result"> 15M Subscribes</div>
+          </div>
+
+    
+        </div>
+ 
+      <a class="text-that" href="https://youtu.be/n2RNcPRtAiY?si=blGtMTLFomOciq3G"><div class="text">Talking Tech and Al with Google CEO Sundar Pichai!</div></a>  
+      </div>
+
+      <div class="information">
+        <div class="author" > Marques Brownlea</div>
+        <div class="result"> 3.4M views &#183; 6 months ago</div>
+      </div>
+        
+    </div>
+
+   <div class="container">
+
+      <div class="thumbnail-container">
+
+        <a href="https://youtu.be/mP0RAo9SKZk?si=bGLZj1B8zzvYSCUg"><img class="thumbnail" src="../05-Assets/thumbnail-2.webp"></a>
+
+       
+
+        <div class="time">8:22</div>
+      </div>
+
+      <div class="mini-container">
+        <a href="https://www.youtube.com/@markiplier"><img class="channel-pic" src="../05-Assets/channel-2.jpeg"></a>
+
+         <div class="tooltip">
+          <img class="tooltip-pic" src="../05-Assets/channel-2.jpeg">
+          <div class="tool">
+            <div class="tool-author" > Markiplier</div>
+        <div class="tool-result"> 30M Subscribes</div>
+          </div>
+
+        </div>
+ 
+      <a class="text-that" href="https://youtu.be/mP0RAo9SKZk?si=bGLZj1B8zzvYSCUg"><div class="text">Try Not To Laugh Challenge #9</div></a>  
+      </div>
+
+      <div class="information">
+        <div class="author" > Markiplier</div>
+        <div class="result"> 19M views &#183; 4 years ago</div>
+      </div>
+        
+    </div>
+
+    </div>
+    
+  </body>
+</html>

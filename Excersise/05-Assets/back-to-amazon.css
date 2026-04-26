@@ -1,0 +1,42 @@
+.back-to-amazon {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 113, 133);
+  border: none;
+  text-decoration: underline;
+  
+}
+
+.about-product {
+ font-weight: bold;
+}
+
+.pice-product {
+  font-weight: bold;
+  color: rgb(0,118,0);
+  
+}
+
+.chance-for-product {
+  font-size: 10px;
+}
+
+
+.cart-fot-product {
+  color: black;
+  background-color: rgb(255,216,20);
+  border-radius: 10px;
+  border: none;
+  font-size: 10px;
+  height:20px;
+  width: 80px;
+}
+
+.buy-now {
+  color: black;
+ background-color: rgb(255,164,28);
+  border-radius: 10px;
+  border: none;
+  font-size: 10px;
+   height:20px;
+  width: 80px;
+}

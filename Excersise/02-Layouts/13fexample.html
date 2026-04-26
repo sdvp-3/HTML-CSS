@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      .container {
+        flex-direction: column;
+        display: flex;
+        height: 300px;
+        width: 450px;
+        padding:20px 20px;
+        font-family: Roboto,Arial;
+
+      }
+      .big-line {
+        display: flex;
+        height: 80px;
+        width: 400px;
+        gap: 10px;
+        padding: 10px 10px;
+        align-items: flex-start;
+      }
+
+     .left-sec {
+      display: flex;
+      align-items: center;
+
+     }
+
+     .prof-img {
+      height: 40px;
+      width:40px;
+      border-radius:50%;
+    }
+
+    .right-sec {
+      flex-direction: column;
+      display: flex;
+     
+
+    }
+
+    .below-sec {
+      height: 100px;
+      width: 350px;
+      display: flex;
+      border: 1px solid rgb(222, 200, 200);
+      border-radius: 16px;
+      overflow: hidden;
+      align-items: center;
+      margin-left: 60px;
+      
+      
+    }
+
+    .left-sec1 {
+      display: flex;
+      background-color: rgb(239, 220, 220);
+      height: 120px;
+      width: 100px;
+      flex-shrink: 0;
+      
+      
+
+
+    }
+
+    .right-sec1 {
+    flex-direction: column;
+    padding:10px 10px;
+    flex: 1;
+    }
+    
+    .yt-cm{
+      color: rgb(98, 98, 98);
+      font-weight: 500;
+
+    }
+
+
+    .span-text {
+    font-weight: bold;
+    }
+
+    .span-text1{
+      color: rgb(98, 98, 98);
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="big-line">
+
+       <div class="left-sec">
+        <img class="prof-img" src="../05-Assets/img-1.jpeg">
+       </div>
+
+       <div class="right-sec">
+        <div><span class="span-text">supersimple.dev</span><span class="span-text1"> @SuperSimpleDev</span></div> 
+         <div>What is backend web development? A complete overview. New video is up!</div>
+       </div>
+
+      </div>
+
+        <div class="below-sec">
+
+          <div class="left-sec1">
+          
+          </div>
+
+          <div class="right-sec1">
+           <div class="yt-cm">youtube.com</div> 
+         <div>Backend web development - a complete overview (2021)</div>  
+          </div>
+
+        </div>
+
+    </div>
+  </body>
+</html>
