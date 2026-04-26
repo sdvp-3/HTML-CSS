@@ -57,17 +57,7 @@ A collection of **37 hands-on exercises** built with HTML and CSS to practice re
 | 36 | Uber Button | CSS Buttons |
 | 37 | Verdana Font | Fonts |
 
----
 
-## 🚀 How to Run Locally
-
-```bash
-git clone https://github.com/sdvp-3/01-projectp.git
-cd 01-projectp
-# Open any index.html file in your browser
-```
-
----
 
 ## 👤 Author
 
