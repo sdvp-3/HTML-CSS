@@ -2,7 +2,7 @@
 
 A collection of **37 hands-on exercises** built with HTML and CSS to practice real-world layouts and styling techniques.
 
-🔗 **Live Preview:** [sdvp-3.github.io/01-projectp](https://sdvp-3.github.io/01-projectp/)
+🔗 **Live Preview:** [https://sdvp-3.github.io/HTML-CSS/]
 
 ---
 
